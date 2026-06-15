@@ -1,59 +1,50 @@
-# TrabajoFinalAngular
+# UTN - Curso de Desarrollo en React JS  
+## Unidad 1 — Joaquin Della Vecchia
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
+---
 
-## Development server
+## 🚀 Cómo ejecutar el proyecto
 
-To start a local development server, run:
+# Metodo 1:
+Para correr el proyecto localmente:
 
-```bash
-ng serve
-```
+1. Abrí una terminal en la carpeta raíz del proyecto  
+   (la que contiene `src`, `public`, etc.)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. Ejecutá el siguiente comando:
 
 ```bash
-ng generate component component-name
+npm run dev
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+# Metodo 1:
+El proyecto esta subido en Vercel bajo el siguiente link para probarlo online
 
-```bash
-ng generate --help
-```
+## Preview
 
-## Building
+# Preview desde desktop
 
-To build the project run:
+![Preview del proyecto desktop](./preview-img/preview-chat-pc.png)
 
-```bash
-ng build
-```
+![Preview del proyecto desktop](./preview-img/preview-añadir-contacto-pc.png)
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+# Preview desde mobile
 
-## Running unit tests
+![Preview del proyecto desktop](./preview-img/preview-chat-mobile.png)
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+![Preview del proyecto desktop](./preview-img/preview-añadir-contacto-mobile.png)
 
-```bash
-ng test
-```
 
-## Running end-to-end tests
+### Autor
 
-For end-to-end (e2e) testing, run:
+Joaquin Della Vecchia Ramirez, estudiante del Curso de Desarrollo en React JS
+Modulo 2, Unidad 1
 
-```bash
-ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Creditos Adicionales de las imagenes
 
-## Additional Resources
+[foto de pefil miku (celeste)](https://ar.pinterest.com/pin/577586721002962961/)
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[foto de perfil neru (amarilla)](https://ar.pinterest.com/pin/4503668372649194/)
+
+[foto de perfil teto (roja)](https://ar.pinterest.com/pin/4503668372649209/)
