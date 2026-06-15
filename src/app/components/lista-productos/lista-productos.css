@@ -1,0 +1,126 @@
+.products-container {
+  width: 100%;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-section .section-title {
+  margin: 0;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+  transform: translateY(-4px);
+}
+
+.product-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: linear-gradient(135deg, #ea6666 0%, #d44949 100%);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 12px;
+  z-index: 10;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 15px 20px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  line-height: 1.4;
+}
+
+.card-body {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.description {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.price-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.original-price,
+.discount-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-section .label {
+  font-weight: 500;
+  color: #666;
+  font-size: 12px;
+}
+
+.price-section .value {
+  font-weight: 700;
+  color: #28a745;
+  font-size: 16px;
+}
+
+.price-section .value.special {
+  color: #ffc107;
+  font-size: 18px;
+}
+
+.card-footer {
+  padding: 15px 20px;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  gap: 10px;
+}
+
+.card-footer .btn {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 13px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 10px;
+  color: #999;
+  font-size: 16px;
+}

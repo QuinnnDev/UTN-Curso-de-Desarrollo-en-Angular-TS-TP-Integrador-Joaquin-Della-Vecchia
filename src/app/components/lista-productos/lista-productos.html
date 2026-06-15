@@ -1,0 +1,50 @@
+<div class="products-container">
+  <div class="header-section">
+    <h1 class="section-title">Products Catalog</h1>
+    <button class="btn btn-primary" (click)="agregarProductoSimulado()">+ Add Product</button>
+  </div>
+
+  @if (productosList.length > 0) {
+    <div class="products-grid">
+      @for (producto of productosList; track producto.id) {
+        <div class="product-card card">
+            @if (producto.descuento >0) {
+                <div class="product-badge">{{ producto.descuento }}% OFF</div>
+            }
+          <div class="card-header">
+            <h2>{{ producto.nombre }}</h2>
+          </div>
+          <div class="card-body">
+            <p class="description">{{ producto.descripcion }}</p>
+            <div class="price-section">
+              <div class="original-price">
+                <span class="label">Price:</span>
+                <span class="value">{{
+                  producto.precio | currency: 'USD' : 'symbol' : '1.2-2'
+                }}</span>
+              </div>
+              @if (producto.descuento > 0) {
+                <div class="discount-price">
+                  <span class="label">Special Price:</span>
+                  <span class="value special">{{
+                    producto.precio
+                      | descuento: producto.descuento
+                      | currency: 'USD' : 'symbol' : '1.2-2'
+                  }}</span>
+                </div>
+              }
+            </div>
+          </div>
+          <div class="card-footer">
+            <a [routerLink]="['/productos', producto.id]" class="btn btn-primary">View Details</a>
+            <button class="btn btn-danger" (click)="eliminarProducto(producto.id)">Remove</button>
+          </div>
+        </div>
+      }
+    </div>
+  } @else {
+    <div class="empty-state">
+      <p>No products available. Add your first product to get started!</p>
+    </div>
+  }
+</div>
