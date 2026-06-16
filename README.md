@@ -1,4 +1,4 @@
-# UTN - Curso de Desarrollo en React JS  
+# UTN - Curso de Desarrollo en Angular TS  
 ## Unidad 1 — Joaquin Della Vecchia
 
 ---
@@ -20,31 +20,24 @@ npm run dev
 # Metodo 1:
 El proyecto esta subido en Vercel bajo el siguiente link para probarlo online
 
+https://utn-curso-de-desarrollo-en-angular.vercel.app/
+
 ## Preview
 
 # Preview desde desktop
 
-![Preview del proyecto desktop](./preview-img/preview-chat-pc.png)
+![Preview del proyecto desktop](./preview-img/preview-home-desktop.png)
 
-![Preview del proyecto desktop](./preview-img/preview-añadir-contacto-pc.png)
+![Preview del proyecto desktop](./preview-img/preview-users-desktop.png)
 
 # Preview desde mobile
 
-![Preview del proyecto desktop](./preview-img/preview-chat-mobile.png)
+![Preview del proyecto desktop](./preview-img/preview-home-mobile.png)
 
-![Preview del proyecto desktop](./preview-img/preview-añadir-contacto-mobile.png)
+![Preview del proyecto desktop](./preview-img/preview-users-mobile.png)
 
 
 ### Autor
 
-Joaquin Della Vecchia Ramirez, estudiante del Curso de Desarrollo en React JS
-Modulo 2, Unidad 1
+Joaquin Della Vecchia Ramirez, estudiante del Curso de Desarrollo en Angular
 
-
-## Creditos Adicionales de las imagenes
-
-[foto de pefil miku (celeste)](https://ar.pinterest.com/pin/577586721002962961/)
-
-[foto de perfil neru (amarilla)](https://ar.pinterest.com/pin/4503668372649194/)
-
-[foto de perfil teto (roja)](https://ar.pinterest.com/pin/4503668372649209/)
